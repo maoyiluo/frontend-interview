@@ -1,0 +1,6 @@
+p{
+    width: 300px;
+    overflow: hidden; /*这是必须的*/
+    text-overflow:ellipsis; /*我理解成这个像是如何处理overflow,如果overflow不设置为hidden那么这一条不会起作用*/
+    white-space: nowrap;
+}

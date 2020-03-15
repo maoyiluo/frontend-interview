@@ -1,0 +1,16 @@
+p{
+    width: 100px;
+    line-height: 20px;
+    max-height: 40px;
+    word-wrap: break-word;
+    overflow: hidden;
+    position: relative;
+}
+
+p::after{
+    content: "...";
+    position: absolute;
+    bottom:0;
+    right:0;
+    background-color:white;
+}
